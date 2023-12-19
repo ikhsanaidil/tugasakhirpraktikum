@@ -29,26 +29,27 @@
       android:inputType="text"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.515"
+      app:layout_constraintHorizontal_bias="0.727"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.142"
+      app:layout_constraintVertical_bias="0.144"
       app:strokeColor="@color/green"
       tools:ignore="MissingConstraints" />
 
   <EditText
       android:id="@+id/editTextTexttempatLahir"
-      android:layout_width="383dp"
-      android:layout_height="48dp"
+      android:layout_width="371dp"
+      android:layout_height="50dp"
       android:background="@drawable/text"
       android:ems="20"
       android:hint="tempat lahir"
       android:inputType="text"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.6"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.31"
+      app:layout_constraintVertical_bias="0.309"
       app:strokeColor="@color/green"
       tools:ignore="MissingConstraints" />
 
@@ -113,10 +114,10 @@
       android:inputType="text"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.636"
+      app:layout_constraintHorizontal_bias="0.727"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.557"
+      app:layout_constraintVertical_bias="0.575"
       app:strokeColor="@color/green"
       tools:ignore="MissingConstraints" />
 
@@ -140,17 +141,26 @@
       android:text="Pendaftaran"
       android:textColor="#070707"
       android:textSize="20sp"
-      tools:ignore="MissingConstraints"
-      tools:layout_editor_absoluteX="151dp"
-      tools:layout_editor_absoluteY="36dp" />
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.063"
+      app:strokeColor="@color/green"
+      tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
   <ImageView
       android:id="@+id/kembali"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:src="@drawable/kembali"
-      tools:layout_editor_absoluteX="17dp"
-      tools:layout_editor_absoluteY="16dp"
-      tools:ignore="MissingConstraints" />
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.134"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.053"
+      app:strokeColor="@color/green"
+      tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

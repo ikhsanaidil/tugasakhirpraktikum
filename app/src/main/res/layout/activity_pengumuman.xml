@@ -34,8 +34,8 @@
 
         <!-- Tombol Tutup -->
 
-        <TextView
-            android:id="@+id/textViewAnnouncement"
+        <EditText
+            android:id="@+id/Announcement"
             android:layout_width="337dp"
             android:layout_height="210dp"
             android:text="pada hari ini 22 desember 2023 libur panjang sampe tahun 2034"
@@ -43,23 +43,27 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/buttonClose"
+            android:id="@+id/simpan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="?android:attr/selectableItemBackground"
-            android:text="kembali"
+            android:text="simpan"
             android:textColor="@color/black" />
     </LinearLayout>
     <TextView
         android:id="@+id/textView6"
         android:layout_width="130dp"
         android:layout_height="27dp"
-        android:text="Pendaftaran"
+        android:text="Pegumuman"
         android:textColor="#070707"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="36dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063"
+        app:strokeColor="@color/green"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
